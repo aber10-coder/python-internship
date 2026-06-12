@@ -1,0 +1,22 @@
+[
+  {
+    "category": "Food",
+    "amount": 120.0
+  },
+  {
+    "category": "Transport",
+    "amount": 30.0
+  },
+  {
+    "category": "food",
+    "amount": 120.0
+  },
+  {
+    "category": "food",
+    "amount": 30.0
+  },
+  {
+    "category": "course",
+    "amount": 3000.0
+  }
+]
