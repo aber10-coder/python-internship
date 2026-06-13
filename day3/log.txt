@@ -1,0 +1,4 @@
+26-06-13 12:36:25 |add_exp |args= ('food', 120.0)kwargs= {}
+26-06-13 12:36:36 |add_exp |args= ('food', 50.0)kwargs= {}
+26-06-13 12:36:39 |get_sum |args= ()kwargs= {}
+26-06-13 12:36:42 |view_all |args= ()kwargs= {}
