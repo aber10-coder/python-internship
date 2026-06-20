@@ -46,4 +46,15 @@ def create_user(user):
         "id":row["id"],
         "email": row["email"]
     }
+
+def get_user_by_email(email):
+    conn=get_connection()
+    c=conn.cursor()
+    c.execute("SELECT * FROM users WHERE email=?",(email,))
+    row=c.fetchone()
+    conn.close()
+
+    if row:
+        return dict(row)
+    return None
     
